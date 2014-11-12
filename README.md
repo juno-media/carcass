@@ -1,0 +1,4 @@
+carcass
+=======
+
+Magento development framework
