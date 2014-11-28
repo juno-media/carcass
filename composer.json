@@ -1,0 +1,16 @@
+{
+    "name": "junomedia/carcass",
+    "description": "Magento development framework",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "~1.5",
+        "phpunit/phpunit": "~4.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Paterson",
+            "email": "adamp@junowebdesign.com"
+        }
+    ],
+    "require": {}
+}
