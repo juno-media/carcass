@@ -1,16 +1,39 @@
 {
-    "name": "junomedia/carcass",
-    "description": "Magento development framework",
-    "require-dev": {
-        "squizlabs/php_codesniffer": "~1.5",
-        "phpunit/phpunit": "~4.3"
-    },
-    "license": "MIT",
+    "name": "juno-media/carcass",
     "authors": [
         {
             "name": "Adam Paterson",
-            "email": "adamp@junowebdesign.com"
+            "email": "hello@adampaterson.co.uk"
         }
     ],
-    "require": {}
+    "require": {
+        "aydin-hassan/magento-core-composer-installer": "~1.2",
+        "magento-hackathon/magento-composer-installer": "~2.1",
+        "magento/magento": "~1.9.1.0"
+    },
+    "require-dev": {
+        "Champion/Johnny": "1.0.0",
+        "aoepeople/aoe_profiler": "0.4.2"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:AydinHassan/magento-community.git"
+        },
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bullfrogchampion/Johnny"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:AOEpeople/Aoe_Profiler.git"
+        }
+    ],
+    "extra": {
+        "magento-root-dir": "htdocs"
+    }
 }
